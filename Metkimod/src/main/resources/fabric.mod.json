@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "metkimod",
+  "version": "${version}",
+  "name": "MetkiMod - Ping System",
+  "description": "Tactical ping/marker system for cooperative play and PvP. Place temporary markers, see distance, share with your group!",
+  "authors": ["Tukisg"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.metkimod.MetkiMod"],
+    "client": ["com.metkimod.MetkiModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

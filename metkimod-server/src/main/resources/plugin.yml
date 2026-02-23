@@ -1,0 +1,10 @@
+name: MetkiMod
+version: '1.0.0'
+main: com.metkimod.plugin.MetkiPlugin
+api-version: '1.21'
+author: Tukisg
+description: Server companion plugin for MetkiMod - tactical ping/marker system for teams
+commands:
+  metki:
+    description: MetkiMod group management
+    usage: /metki group <create|join|leave|info> [name] [password]
